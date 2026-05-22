@@ -1,0 +1,15 @@
+# КОПИРУЕТСЯ В ~/.picoclaw/.security.yml И chmod 600.
+# Структура: ключи здесь перекрывают значения из config.json.
+
+model_list:
+  qwen:
+    api_keys:
+      - ""
+
+  deepseek-fallback:
+    api_keys:
+      - "REPLACE_WITH_DEEPSEEK_KEY"
+
+channels:
+  telegram:
+    token: ""
